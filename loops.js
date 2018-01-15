@@ -22,5 +22,5 @@ function maybeTrue() {
 function doWhileLoop(args) {
  do {
    args.pop()
- } while (maybeTrue());
+ } while (args.length > 0 && maybeTrue());
 }

@@ -23,4 +23,5 @@ function doWhileLoop(args) {
  do {
    args.pop()
  } while (args.length > 0 && maybeTrue());
+ return args
 }
